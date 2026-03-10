@@ -108,38 +108,40 @@ header .menu .buttons .shop {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 0 18px;
+  }
+  #beautiful .box h5 {
+    font-size: 19px;
   }
   #beautiful .box .btn {
-    margin-left: 30px;
+    padding: 13px 40px;
+    margin-left: 35px;
   }
   #beautiful .box .imgbox {
-    margin-left: 25px;
+    width: auto;
   }
   #beautiful .box h4 {
-    margin-left: 40px;
+    margin-left: 30px;
+    font-size: 15px;
   }
 }
 @media (max-width: 768px) {
   #beautiful .box h5 {
-    text-align: center;
+    font-size: 15px;
   }
   #beautiful .box .btn {
-    margin-left: 30px;
+    padding: 10px 20px;
   }
 }
 @media (max-width: 430px) {
-  #beautiful .box {
-    margin: 0;
-  }
   #beautiful .box h1 {
-    font-size: 48px;
-    padding: 0 50px;
-  }
-  #beautiful .box h4 {
-    margin: 20px 0 50px;
+    font-size: 40px;
   }
   #beautiful .box h5 {
-    padding: 0 40px;
+    font-size: 14px;
+  }
+  #beautiful .box .btn {
+    margin-right: 20px;
   }
 }
 
@@ -175,33 +177,18 @@ header .menu .buttons .shop {
 @media (max-width: 992px) {
   #thehome .textbox {
     text-align: center;
-    margin-left: 140px;
-  }
-  #thehome .textbox h5 {
-    font-size: 15px;
-  }
-  #thehome .imgbox {
-    margin-right: 100px;
-    width: 70%;
   }
 }
 @media (max-width: 430px) {
-  #thehome .textbox {
-    margin: 0;
-  }
   #thehome .textbox h1 {
-    font-size: 48px;
-    padding: 0 50px;
+    font-size: 40px;
   }
   #thehome .textbox h5 {
-    padding: 0 50px;
+    margin-left: 32px;
   }
   #thehome .textbox .btn {
-    padding: 13px 45px;
-  }
-  #thehome .imgbox img {
-    width: 120%;
-    padding-top: 60px;
+    padding: 13px 60px;
+    margin-left: 40px;
   }
 }
 
@@ -228,21 +215,23 @@ header .menu .buttons .shop {
   line-height: 1.3;
 }
 @media (max-width: 992px) {
-  #works .box .imgbox {
-    padding-top: 60px;
-  }
-}
-@media (max-width: 768px) {
-  #works .box .imgbox {
-    width: auto;
+  #works .box .textbox {
+    text-align: center;
   }
 }
 @media (max-width: 430px) {
   #works .box .imgbox {
-    width: auto;
+    width: 70%;
+    margin-left: 50px;
   }
-  #works .box .textbox h1 {
-    font-size: 40px;
+  #works .box .textbox {
+    padding: 0 40px;
+  }
+  #works .box .textbox h2 {
+    font-size: 20px;
+  }
+  #works .box .textbox h4 {
+    font-size: 15px;
   }
 }
 
@@ -315,8 +304,8 @@ header .menu .buttons .shop {
   margin-top: 50px;
 }
 @media (max-width: 992px) {
-  #browse .box {
-    width: auto;
+  #browse .textbox h2 {
+    font-size: 10px;
   }
   #browse .menu {
     flex-direction: column;
@@ -330,13 +319,13 @@ header .menu .buttons .shop {
   #browse .box {
     flex-wrap: wrap;
   }
-  #browse .box .imgbox .minibox {
+  #browse .box display .minibox {
     flex-direction: column;
   }
-  #browse .box .imgbox .minibox h2 {
+  #browse .box display .minibox h2 {
     padding: 20px 0;
   }
-  #browse .box .imgbox .add input {
+  #browse .box display .add input {
     width: 40px;
   }
 }
