@@ -108,40 +108,43 @@ header .menu .buttons .shop {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 0 18px;
   }
   #beautiful .box h5 {
-    font-size: 19px;
+    font-size: 20px;
   }
   #beautiful .box .btn {
-    padding: 13px 40px;
-    margin-left: 35px;
+    font-size: 25px;
   }
   #beautiful .box .imgbox {
     width: auto;
   }
   #beautiful .box h4 {
-    margin-left: 30px;
-    font-size: 15px;
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 768px) {
+  #beautiful .box {
+    margin: 0;
+  }
   #beautiful .box h5 {
-    font-size: 15px;
+    font-size: 18px;
   }
   #beautiful .box .btn {
-    padding: 10px 20px;
+    font-size: 20px;
   }
 }
 @media (max-width: 430px) {
+  #beautiful .box {
+    margin: 0;
+  }
   #beautiful .box h1 {
-    font-size: 40px;
+    font-size: 63px;
   }
   #beautiful .box h5 {
-    font-size: 14px;
+    font-size: 25px;
   }
   #beautiful .box .btn {
-    margin-right: 20px;
+    font-size: 25px;
   }
 }
 
@@ -177,18 +180,25 @@ header .menu .buttons .shop {
 @media (max-width: 992px) {
   #thehome .textbox {
     text-align: center;
+    margin: auto;
+  }
+  #thehome .textbox .btn {
+    margin-bottom: 50px;
+  }
+  #thehome .imgbox {
+    width: auto;
+    margin: auto;
   }
 }
 @media (max-width: 430px) {
   #thehome .textbox h1 {
-    font-size: 40px;
+    font-size: 55px;
   }
   #thehome .textbox h5 {
-    margin-left: 32px;
+    font-size: 23px;
   }
   #thehome .textbox .btn {
-    padding: 13px 60px;
-    margin-left: 40px;
+    font-size: 27px;
   }
 }
 
@@ -216,22 +226,30 @@ header .menu .buttons .shop {
 }
 @media (max-width: 992px) {
   #works .box .textbox {
-    text-align: center;
+    padding: 50px;
+  }
+  #works .box .imgbox {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  #works .box .imgbox {
+    width: auto;
   }
 }
 @media (max-width: 430px) {
   #works .box .imgbox {
-    width: 70%;
-    margin-left: 50px;
+    width: 100%;
+    padding-top: 30px;
   }
   #works .box .textbox {
-    padding: 0 40px;
+    padding: 30px;
   }
   #works .box .textbox h2 {
     font-size: 20px;
   }
   #works .box .textbox h4 {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 
@@ -304,8 +322,11 @@ header .menu .buttons .shop {
   margin-top: 50px;
 }
 @media (max-width: 992px) {
-  #browse .textbox h2 {
-    font-size: 10px;
+  #browse .box {
+    padding: 40px;
+  }
+  #browse .box .textbox h2 {
+    margin-top: 20px;
   }
   #browse .menu {
     flex-direction: column;
@@ -316,38 +337,32 @@ header .menu .buttons .shop {
     justify-content: center;
     display: flex;
   }
+  #browse .menu .btn {
+    padding: 10px 25px;
+    margin-bottom: 20px;
+  }
   #browse .box {
     flex-wrap: wrap;
   }
-  #browse .box display .minibox {
+  #browse .box .imgbox {
+    width: 500px;
+  }
+  #browse .box .textbox {
+    margin: 0;
+  }
+  #browse .box .textbox .minibox {
     flex-direction: column;
   }
-  #browse .box display .minibox h2 {
-    padding: 20px 0;
-  }
-  #browse .box display .add input {
-    width: 40px;
+  #browse .box .textbox .minibox h2 {
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 490px) {
   #browse .menu {
     flex-direction: column;
-    margin-left: 110px;
-  }
-  #browse .box {
-    margin-left: 90px;
   }
   #browse .box .imgbox {
-    width: auto;
-    padding: 20px 0;
-  }
-  #browse .textbox h1 {
-    padding: 0 50px;
-    margin-left: 110px;
-  }
-  #browse .textbox h4 {
-    padding: 0 30px;
-    margin-left: 120px;
+    width: 500px;
   }
 }
 
@@ -433,6 +448,7 @@ header .menu .buttons .shop {
   #callour .textbox {
     text-align: center;
     margin: 0 100px;
+    width: auto;
   }
   #callour .imgbox {
     width: 80%;
