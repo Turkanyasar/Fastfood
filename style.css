@@ -179,11 +179,12 @@ header .menu .buttons .shop {
 }
 @media (max-width: 992px) {
   #thehome .textbox {
-    text-align: center;
     margin: auto;
+    width: 100%;
+    text-align: center;
   }
   #thehome .textbox .btn {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   #thehome .imgbox {
     width: auto;
@@ -198,7 +199,8 @@ header .menu .buttons .shop {
     font-size: 23px;
   }
   #thehome .textbox .btn {
-    font-size: 27px;
+    font-size: 20px;
+    padding: 15px 65px;
   }
 }
 
@@ -226,7 +228,7 @@ header .menu .buttons .shop {
 }
 @media (max-width: 992px) {
   #works .box .textbox {
-    padding: 50px;
+    padding: 15px 70px;
   }
   #works .box .imgbox {
     width: 100%;
@@ -246,10 +248,10 @@ header .menu .buttons .shop {
     padding: 30px;
   }
   #works .box .textbox h2 {
-    font-size: 20px;
+    font-size: 30px;
   }
   #works .box .textbox h4 {
-    font-size: 20px;
+    font-size: 26px;
   }
 }
 
@@ -338,8 +340,8 @@ header .menu .buttons .shop {
     display: flex;
   }
   #browse .menu .btn {
-    padding: 10px 25px;
-    margin-bottom: 20px;
+    padding: 10px 80px;
+    margin-bottom: 10px;
   }
   #browse .box {
     flex-wrap: wrap;
@@ -400,6 +402,7 @@ header .menu .buttons .shop {
   }
   #order .imgbox {
     width: 100%;
+    margin-left: 180px;
     padding-bottom: 50px;
   }
 }
@@ -446,9 +449,8 @@ header .menu .buttons .shop {
 }
 @media (max-width: 992px) {
   #callour .textbox {
-    text-align: center;
-    margin: 0 100px;
     width: auto;
+    margin-left: 100px;
   }
   #callour .imgbox {
     width: 80%;
@@ -460,26 +462,27 @@ header .menu .buttons .shop {
 }
 @media (max-width: 768px) {
   #callour .textbox h1, #callour .textbox h5 {
-    text-align: center;
+    margin: 30px 40px;
+    width: auto;
   }
 }
 @media (max-width: 440px) {
   #callour .textbox {
     text-align: center;
-    margin-left: 100px;
+    margin-left: 30px;
   }
   #callour .textbox h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
   #callour .textbox h5 {
-    font-size: 13px;
+    font-size: 18px;
   }
   #callour .textbox .btn {
     padding: 10px 20px;
   }
   #callour .imgbox {
-    width: 70%;
-    margin-left: 50px;
+    width: auto;
+    margin-left: 10px;
   }
 }
 
